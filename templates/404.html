@@ -1,0 +1,23 @@
+
+{% extends './base.html' %}
+
+{% block scrip %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/404.css') }}">
+{% endblock scrip %}
+
+{% block title %}
+Pagina error 404
+{% endblock title %}
+
+
+{% block body %}
+
+<h1>404 Error Page #1</h1>
+<p class="zoom-area"><b>CSS</b> Error 404, Pagina no encontrada. </p>
+<section class="error-container">
+  <span><span>4</span></span>
+  <span>0</span>
+  <span><span>4</span></span>
+</section>
+
+{% endblock body %}
